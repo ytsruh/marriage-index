@@ -1,0 +1,20 @@
+{
+  "name": "st_helens_marriage_index",
+  "version": "1.0.0",
+  "description": "Search the St Helen's Marriage Index",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "production": "NODE_ENV='production' nodemon server.js"
+  },
+  "author": "Chris Hurst",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-hbs": "^1.0.4",
+    "mysql": "^2.15.0",
+    "sequelize": "^4.28.6",
+    "serve-favicon": "^2.4.5"
+  }
+}
