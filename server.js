@@ -1,9 +1,8 @@
 const config = require('./config.js').get(process.env.NODE_ENV);
 const express = require('express')
 const path = require('path')
-const Sequelize = require('sequelize');
-const hbs = require('express-hbs');
-const bodyParser = require('body-parser');
+const hbs = require('express-hbs')
+const bodyParser = require('body-parser')
 const favicon = require('serve-favicon')
 
 //Create express app
