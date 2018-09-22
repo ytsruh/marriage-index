@@ -1,6 +1,6 @@
 {
   "name": "st_helens_marriage_index",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Search the St Helen's Marriage Index",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "dotenv": "^6.0.0",
     "express": "^4.16.2",
     "express-hbs": "^1.0.4",
     "mysql": "^2.15.0",
