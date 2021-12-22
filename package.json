@@ -1,20 +1,41 @@
 {
-  "name": "st_helens_marriage_index",
-  "version": "1.1.0",
-  "description": "Search the St Helen's Marriage Index",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server.js",
-    "production": "NODE_ENV='production' server.js"
-  },
-  "author": "Chris Hurst",
-  "license": "MIT",
+  "name": "St-Helens-Marriage-Index",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.2",
-    "express-hbs": "^1.0.4",
-    "mysql": "^2.15.0",
-    "serve-favicon": "^2.4.5"
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-materialize": "^3.10.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
