@@ -61,7 +61,7 @@ export default function Home() {
                   <h2 className="center brown-text">
                     <i className="material-icons">insert_chart</i>
                   </h2>
-                  <h5 className="center">229,191 records</h5>
+                  <h5 className="center">133,827 records</h5>
                   <p className="light center">
                     All of these records have been transcribed from various sources and contain data ranging
                     from 1536 through to 2010.
