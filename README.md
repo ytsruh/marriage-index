@@ -6,5 +6,5 @@ An online database of marriage in the St Helens area between 1536 &amp; 2010 Liv
 
 - React
 - MaterializeCSS
-- Azure Functions
+- Vercel
 - Azure Table Storage
